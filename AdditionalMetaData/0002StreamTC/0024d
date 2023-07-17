@@ -1,0 +1,5 @@
+Actor,Static Mesh,Level,Type,UVs,Res,Texture LM,Vertex LM,Num LM,Texture SM,Vertex SM,Num SM,Lightmap Names,
+Floor,SM_Template_Map_Floor,Game/Main,Texture,True,128,42.56,0,0,21.279,0,1,("HQ_Lightmap0_1" "LQ_Lightmap_0_1"),
+SkySphere,SM_SkySphere,Game/Main,Texture,True,32,2.659,0,0,1.329,0,1,("HQ_Lightmap0_2" "LQ_Lightmap_0_2"),
+SkySphere,SM_SkySphere,Game/Main,Texture,True,32,2.659,0,0,1.329,0,1,("HQ_Lightmap0_2" "LQ_Lightmap_0_2"),
+,,,,,,47.878,0,0,23.938,0,3,,
