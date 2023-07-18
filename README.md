@@ -33,6 +33,8 @@ for the tail position CSV of Rex.
 By running the following command, the metadata in the folder is enclosed in an mrx file named `first/myfirst.mrx`.
 ```./mrx-tool encode --input BaseMetaData/ --output first/myfirst.mrx```
 
+The layout of the myfirst.mrx is current available in `myfirst/myfirstmrx.yaml`
+
 ### Decoding your first mrx file
 
 Next its time to decode the mrx file, to ensure the preservation of the metadata
