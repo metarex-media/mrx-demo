@@ -30,8 +30,8 @@ frame instances of the camera metadata json files
 and `0001StreamTE` contains the single embedded metadata
 for the tail position CSV of Rex.
 
-By running the following command, the metadata in the folder is enclosed in an mrx file named `Generated/myfirst.mrx`.
-```./mrx-tool encode --input BaseMetaData/ --output Generated/myfirst.mrx```
+By running the following command, the metadata in the folder is enclosed in an mrx file named `first/myfirst.mrx`.
+```./mrx-tool encode --input BaseMetaData/ --output first/myfirst.mrx```
 
 ### Decoding your first mrx file
 
@@ -41,15 +41,15 @@ containerised and uncontainerised in the mrx format.
 
 Decode your mrx file back into the metadata folders by running.
 
-```./mrx-tool decodesave --input Generated/myfirst.mrx --output Extracted```
+```./mrx-tool decodesave --input first/myfirst.mrx --output second```
 
-The `Extracted` folder and its contents should now match the `BasicMetaData` folder contents.
+The `second` folder and its contents should now match the `BasicMetaData` folder contents.
 
 ### Adding more metadata
 
 Now you've decoded the mrx file, we'd like to add some additional lighting metadata,
 from the `AdditionalMetadata` folder. To do this, copy and paste the `0002StreamTC` folder
-into the `Extracted` folder, then add the following to the `"StreamProperties"` field in the `Extracted/config.json`.
+into the `first` folder, then add the following to the `"StreamProperties"` field in the `second/config.json`.
 
 ```json
 "2": {
@@ -63,18 +63,19 @@ This addition to the config json gives the namespace for the new metadata channe
 and the frame rate for it to be encoded at.
 The new mrx with the additional lighting data can now be encoded by running.
 
-```./mrx-tool encode --input Extracted/ --output Generated/expanded.mrx```
+```./mrx-tool encode --input second/ --output second/second.mrx```
 
 You can now extract the contents of the mrx file using the methods described earlier,
 or do anything you please with the file. Please play around
 and if you find any issues let us know.
 
-## Extra Tools to interpret MRX files
+## Extra Tools to Visualise MRX files
 
 The following tools are also available to help get a greater
-understanding of the contents of an MRX file. These are in no way associated
-with the Metarex project
+understanding of the contents of an MRX file. These are independently generated
+mxf verification tools, showing that mrx, at its core is just an mxf file. That follows
+the 20 year old standard.
 
 - [MXF inspect](https://github.com/Myriadbits/MXFInspect) you can look at the physical layout of the file.
 - [Reg-XML](https://registry.smpte-ra.org/apps/regxmldump/view/published/)
-Gives more details here about the header information of an nrx file.
+Gives more details here about the header information of an rmx file.
