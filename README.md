@@ -60,7 +60,8 @@ into the `first` folder, then add the following to the `"StreamProperties"` fiel
 ```
 
 This addition to the config json gives the namespace for the new metadata channel
-and the frame rate for it to be encoded at.
+and the frame rate for it to be encoded at. The config.json is wrapped and unwrapped
+as part of the mrx file and is vital for the round tripping of the metadata.
 The new mrx with the additional lighting data can now be encoded by running.
 
 ```./mrx-tool encode --input second/ --output second/second.mrx```
