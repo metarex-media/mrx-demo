@@ -57,12 +57,13 @@ into the `first` folder, then add the following to the `"StreamProperties"` fiel
 "2": {
     "Type": "Lighting Component",
     "FrameRate": "24/1",
-    "NameSpace": "https://metarex.media/reg/MRX.123.456.789.jkl"
+    "NameSpace": "https://metarex.media/ui/reg/MRX.123.456.789.jkl"
 }
 ```
 
 This addition to the config json gives the namespace for the new metadata channel
-and the frame rate for it to be encoded at. The config.json is wrapped and unwrapped
+and the frame rate for it to be encoded at. The names space helps clarify and define
+the metadata. The config.json is wrapped and unwrapped
 as part of the mrx file and is vital for the round tripping of the metadata.
 The new mrx with the additional lighting data can now be encoded by running.
 
