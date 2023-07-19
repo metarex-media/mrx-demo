@@ -82,4 +82,4 @@ the 20 year old standard.
 
 - [MXF inspect](https://github.com/Myriadbits/MXFInspect) you can look at the physical layout of the file.
 - [Reg-XML](https://registry.smpte-ra.org/apps/regxmldump/view/published/)
-Gives more details here about the header information of an rmx file.
+Gives more details here about the header information of an mrx file.
