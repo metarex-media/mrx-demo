@@ -605,14 +605,14 @@ Partitions:
           ContentPackageLength: 5866
     - PartitionType: body
       HeaderLength: 140
-      EssenceByteCount: 23616
+      EssenceByteCount: 23614
       ContentPackageCount: 1
       ContentPackages:
         - ContentPackage:
             - Key: 060e2b34.01020101.0f020101.05000000
-              Symbol: SystemItemTBD0
-              Description: ""
+              Symbol: MetarexManifest
+              Description: Identifies the Metarex Manifest
               FileOffset: 29033
-              Length: 23597
-              TotalByteCount: 23616
-          ContentPackageLength: 23616
+              Length: 23595
+              TotalByteCount: 23614
+          ContentPackageLength: 23614
