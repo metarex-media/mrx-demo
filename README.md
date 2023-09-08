@@ -1,6 +1,16 @@
 # mrx-demo
 
-mrx-demo contains demo data for the encoding of mrx files.
+welcome to the demo for the [Metarex command line tool](https://github.com/metarex-media/mrx-tool)
+
+This demo is for encoding [metarex](https://metarex.media/) mrx files,
+using the aforementioned  command line tool.
+
+The demo walks you through:
+
+- encoding metadata into an mrx file
+- decode an mrx file into the metadata files
+- extract the structure of an mrx file
+- round tripping mrx files to and from the metadata files
 
 ## The Metadata Context
 
