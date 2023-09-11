@@ -7,16 +7,17 @@ using the aforementioned  command line tool.
 
 The demo walks you through:
 
-- encoding metadata into an mrx file
-- decode an mrx file into the metadata files
-- extract the structure of an mrx file
+- encoding metadata files into an mrx file
+- decoding an mrx file into the metadata files
+- extracting the structure of an mrx file
 - round tripping mrx files to and from the metadata files
 
 ## The Metadata Context
 
 The Metarex mascot Rexy has been catching [the sun](https://metarex.media/meeja/mrx-rexy-nab-2023.mp4).
-This video gave us several types of metadata that we can containerise in an mrx file,
-which we can do with the
+Generating this video gave us several types of metadata about its construction and contents
+that we can containerise in an mrx file
+This can be done with the
 [Metarex command line tool](https://github.com/metarex-media/mrx-tool).
 
 ## Running the Demo
