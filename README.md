@@ -2,8 +2,8 @@
 
 welcome to the demo for the [Metarex command line tool](https://github.com/metarex-media/mrx-tool)
 
-This demo is for encoding [metarex](https://metarex.media/) mrx files,
-using the aforementioned  command line tool.
+This demo is for interacting with [metarex](https://metarex.media/) mrx files,
+using the aforementioned command line tool.
 
 The demo walks you through:
 
@@ -14,9 +14,10 @@ The demo walks you through:
 
 ## The Metadata Context
 
-The Metarex mascot Rexy has been catching [the sun](https://metarex.media/meeja/mrx-rexy-nab-2023.mp4).
-Generating this video gave us several types of metadata about its construction and contents
-that we can containerise in an mrx file
+The Metarex mascot Rexy has been generating metadata
+while catching [the sun](https://metarex.media/meeja/mrx-rexy-nab-2023.mp4).
+We'll containerise all the different types of metadata 
+into a single mrx file.
 This can be done with the
 [Metarex command line tool](https://github.com/metarex-media/mrx-tool).
 
