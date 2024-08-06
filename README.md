@@ -1,12 +1,25 @@
 # mrx-demo
 
-mrx-demo contains demo data for the encoding of mrx files.
+
+welcome to the demo for the [Metarex command line tool](https://github.com/metarex-media/mrx-tool)
+
+This demo is for interacting with [metarex](https://metarex.media/) mrx files,
+using the aforementioned command line tool.
+
+The demo walks you through:
+
+- encoding metadata files into an mrx file
+- decoding an mrx file into the metadata files
+- extracting the structure of an mrx file
+- round tripping mrx files to and from the metadata files
 
 ## The Metadata Context
 
-The Metarex mascot Rexy has been catching [the sun](https://metarex.media/meeja/mrx-rexy-nab-2023.mp4).
-This video gave us several types of metadata that we can containerise in an mrx file,
-which we can do with the
+The Metarex mascot Rexy has been generating metadata
+while catching [the sun](https://metarex.media/meeja/mrx-rexy-nab-2023.mp4).
+We'll containerise all the different types of metadata 
+into a single mrx file.
+This can be done with the
 [Metarex command line tool](https://github.com/metarex-media/mrx-tool).
 
 ## Running the Demo
