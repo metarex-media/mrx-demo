@@ -17,7 +17,7 @@ The demo walks you through:
 
 The Metarex mascot Rexy has been generating metadata
 while catching [the sun](https://metarex.media/meeja/mrx-rexy-nab-2023.mp4).
-We'll containerise all the different types of metadata 
+Which we'll containerise all the different types of metadata 
 into a single mrx file.
 This can be done with the
 [Metarex command line tool](https://github.com/metarex-media/mrx-tool).
@@ -40,13 +40,20 @@ The first set of data we'll look at encoding is the camera position and the
 tail movement metadata of Rexy. This is located in the BaseMetaData folder,
 there the `0000StreamTC` folder contains the frame by
 frame instances of the camera metadata json files
-and `0001StreamTE` contains the single embedded metadata
+and the `0001StreamTE` folder contains the single embedded metadata
 for the tail position CSV of Rex.
 
-By running the following command, the metadata in the folder is enclosed in an mrx file named `first/myfirst.mrx`.
+By running the following command, the metadata in the folder 
+will be enclosed in an mrx file named `first/myfirst.mrx`.
 ```./mrx-tool encode --input BaseMetaData/ --output first/myfirst.mrx```
 
-The layout of the myfirst.mrx is current available in `myfirst/myfirstmrx.yaml`
+The layout of the myfirst.mrx van be decoded with the
+following command.
+
+```cmd
+./mrxtool.exe decode --input first/myfirst.mrx --output myfirst/myfirstmrx.yaml
+```
+the `myfirst/myfirstmrx.yaml` file
 
 ### Decoding your first mrx file
 
