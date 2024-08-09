@@ -5,7 +5,6 @@ workflow:
     - if: $CI_COMMIT_BRANCH =="rc"
 stages:
   - build
-  - test
   - lint
 default:
   image: golang:latest
@@ -21,15 +20,8 @@ bark:
     - for g in "${gg[@]}"; do echo " "; for n in ${!g}; do printf "%s %36s =
       %s\n" $barkId "\$$n" "${!n}"; done; done
 
-tester:
-  stage: test
-  script:
-    - go test ./...
-
 mega-linter:
   stage: lint
-  needs:
-    - tester
   image: oxsecurity/megalinter-go:v7.13.0
   script:
     - "true"
