@@ -12,6 +12,15 @@ The demo walks you through:
 - extracting the structure of an mrx file
 - round tripping mrx files to and from the metadata files
 
+## Contents
+
+- [The Metadata Context](#the-metadata-context)
+- [Running the Demo](#running-the-demo)
+  - [Encoding your first mrx file](#encoding-your-first-mrx-file)
+  - [Decoding your first mrx file](#decoding-your-first-mrx-file)
+  - [Adding more metadata](#adding-more-metadata)
+- [Extra Tools to Visualise MRX files](#extra-tools-to-visualise-mrx-files)
+
 ## The Metadata Context
 
 The Metarex mascot Rexy has been generating metadata
