@@ -1,8 +1,8 @@
 # mrx-demo
 
-welcome to the demo for the [Metarex command line tool](https://github.com/metarex-media/mrx-tool)
+welcome to the demo for the [Metarex command line tool][mrxtool]
 
-This demo is for interacting with [metarex](https://metarex.media/) mrx files,
+This demo is for interacting with [metarex][mrx] mrx files,
 using the aforementioned command line tool.
 
 The demo walks you through:
@@ -29,12 +29,12 @@ In the following demo we will containerise all
 the different types of metadata from this video
 into a single mrx file.
 This can be done with the
-[Metarex command line tool](https://github.com/metarex-media/mrx-tool).
+[Metarex command line tool][mrxtool].
 
 ## Running the Demo
 
 First install the
-[Metarex command line tool](https://github.com/metarex-media/mrx-tool)
+[Metarex command line tool][mrxtool]
 and make sure it runs on your system. This will be the tool we use to encode
 and decode the metadata in an mrx file.
 
@@ -124,3 +124,6 @@ the 20 year old standard.
 - [MXF inspect](https://github.com/Myriadbits/MXFInspect) you can look at the physical layout of the file.
 - [Reg-XML](https://registry.smpte-ra.org/apps/regxmldump/view/published/)
 Gives more details here about the header information of an mrx file.
+
+[mrxtool]: https://github.com/metarex-media/mrx-tool "mrx-tool"
+[mrx]: https://metarex.media/ "the Metarex website"
